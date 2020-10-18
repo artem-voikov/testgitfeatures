@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConsoleApp3
 {
-    class CarRepository : IRepository<Car>
+    class CarRepository
     {
         public Car Get(int id)
         {
