@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConsoleApp3
 {
-    public class Car
+    public class Car 
     {
         public int Id { get; set; }
         public string Name { get; set; }
