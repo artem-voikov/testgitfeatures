@@ -8,12 +8,14 @@ namespace ConsoleApp3
     {
         public Car Get(int id)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Get car");
+
+            return new Car { Id = id, Model = "T", Name = "Car" };
         }
 
         public bool Create(Car car)
         {
-            throw new NotImplementedException();
+            return true;
         }
     }
 }
